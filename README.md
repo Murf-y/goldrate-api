@@ -1,6 +1,6 @@
 # Gold Rate API 📈
 
-A lightweight Free to use FastAPI service that scrapes real-time gold prices (XAU/USD) from TradingView.
+A lightweight Free to use FastAPI service that scrapes real-time gold prices (XAU/USD).
 
 Built with [FastAPI](https://fastapi.tiangolo.com/) • Hosted on [Render](https://render.com)
 
@@ -8,7 +8,7 @@ Built with [FastAPI](https://fastapi.tiangolo.com/) • Hosted on [Render](https
 
 ## Features
 
-- 🔄 Real-time gold price data from TradingView
+- 🔄 Real-time gold price data
 - ⚡ Fast async scraping with aiohttp
 - 🛡️ Rate limiting to prevent abuse
 - 📦 Caching to reduce scraping frequency
@@ -28,7 +28,7 @@ Built with [FastAPI](https://fastapi.tiangolo.com/) • Hosted on [Render](https
 ### Example Request
 
 ```bash
-curl https://rate.onrender.com/api/v1/gold
+curl https://goldrate-y9s7.onrender.com/api/v1/gold
 ```
 
 ### Example Response
@@ -89,7 +89,7 @@ FastAPI provides automatic documentation:
 
 ```text
 ├── main.py           # FastAPI app and routes
-├── scrapper.py       # TradingView scraper
+├── scrapper.py       # Scrapper
 ├── requirements.txt  # Dependencies
 └── README.md
 ```
